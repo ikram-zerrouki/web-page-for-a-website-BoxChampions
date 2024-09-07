@@ -1,0 +1,42 @@
+# Node.js modules (si tu utilises Node.js et npm)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dossiers de build (si tu utilises un processus de build)
+dist/
+build/
+
+# Configuration spécifique à l'éditeur Visual Studio Code
+.vscode/
+
+# Fichiers systèmes (par exemple, générés par macOS ou Windows)
+.DS_Store
+Thumbs.db
+
+# Cache de l'OS et fichiers temporaires
+*.tmp
+*.cache
+
+# Ignorer les fichiers de configuration locaux
+.env
+
+# Ignorer les fichiers de dépendances de package (si tu utilises npm ou yarn)
+package-lock.json
+yarn.lock
+
+# Ignorer les fichiers de compilation (par exemple, si tu utilises un préprocesseur comme Sass)
+*.css.map
+*.scss.map
+
+# Ignorer les dossiers d’installation des dépendances Python (si tu utilises Python)
+__pycache__/
+*.py[cod]
+
+# Ignorer les fichiers de debug de Windows
+*.stackdump
+
+# Ignorer les fichiers et dossiers liés à l'intégration continue (CI/CD)
+.ci/
